@@ -71,6 +71,8 @@ Challengers do not earn Refreshments or Boons prior to an Elite Challenge.
 [This Homebrew is unofficial Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. ©Wizards of the Coast LLC.](https://company.wizards.com/en/legal/fancontentpolicy)
 </div>
 
+{{pageNumber 1}}
+
 \page
 
 ## Moving to the next Challenge
@@ -132,6 +134,8 @@ Boons are randomly selected boosts given to Challengers that they benefit from t
 ##### Ajani, Mentor of Heroes
 [Aaron Miller](https://www.aaronbmiller.com/)
 }}
+
+{{pageNumber 2}}
 
 \page
 
@@ -196,6 +200,7 @@ Completing an Elite Challenge rewards the party with 2x muliplier on their final
 [Anna Pavleeva](https://www.artstation.com/annapavleeva)
 }}
 
+{{pageNumber 3}}
 
 \page
 
@@ -252,6 +257,8 @@ Creatures can't be reduced below 1 Hit Point. If damage would reduce a creature'
 :
 **Steal.** You can attempt to steal possesion of the ball. As an *<u>Action</u>*, make a or Dexterity (Sleight of Hand). The creature currently in possession of the ball makes a contested Wisdom (Insight) or Dexterity (Acrobatics or Sleight of Hand) check. The winner of the contest gains or retains possession of the ball.
 
+{{pageNumber 4}}
+
 \page
 
 {{imageMaskEdge3,--offset:3%,--rotation:90
@@ -297,6 +304,8 @@ A creature that is reduced to 0 hit points is automatically stabalized and is te
 :
 **Return the Flag.** A creature that is holding their team's flag, can take an action to teleport their flag back to their base tile.
 
+{{pageNumber 5}}
+
 \page
 
 :::::::::::::::::::::::::::::::::::::::::::::
@@ -338,6 +347,7 @@ A Challenger must carry the Medium Object from one end of the map to the other a
 [Svetlin Velinov](https://www.artstation.com/velinov)
 }}
 
+{{pageNumber 6}}
 
 \page
 
@@ -384,6 +394,7 @@ Reduce the opposing team to 0 Hit Points before they do the same to you.
 [Steve Prescott](https://www.steveprescott.com/)
 }}
 
+{{pageNumber 7}}
 
 \page
 ### Smash it Up
@@ -444,6 +455,8 @@ Reduce all combatants to 0 hit points before they reach the base and despawn. If
 - (3-4) 2 Points
 - (1-2) 1 Point
 
+{{pageNumber 8}}
+
 \page
 
 ### Tug of War
@@ -482,7 +495,7 @@ Creatures automatically succeed all Death Saving Throws. If a creature is reduce
 <!-- Use --offset to shift the mask away from page center (can use cm instead of %)
      Use --rotation to set rotation angle in degrees. -->
 
-
+{{pageNumber 9}}
 
 \page
 
@@ -592,6 +605,8 @@ Creatures automatically succeed all Death Saving Throws. If a creature is reduce
 ***Detect*** *Trigger:* A creature enters your Truesight range of 10ft. *Response* Teleport that creature back to the starting point.
 }}
 
+{{pageNumber 10}}
+
 \page
 
 <div class='classTable wide'>
@@ -662,3 +677,5 @@ This is because there are 3 slots for 3 Challengers. A CR 1 takes 2 slots, a CR 
 
 </div>
 </div>
+
+{{pageNumber 11}}
