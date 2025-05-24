@@ -51,3 +51,8 @@ This Homebrew is unofficial Fan Content permitted under the Fan Content Policy. 
 **Set**  Dragon's Maze  
 
 **Artist** Howard Lyon
+
+## Surge of Righteousness
+**Set**   Dragons of Tarkir  
+
+**Artist** Marco Nelor
