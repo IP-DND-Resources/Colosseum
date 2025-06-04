@@ -56,3 +56,8 @@ This Homebrew is unofficial Fan Content permitted under the Fan Content Policy. 
 **Set**   Dragons of Tarkir  
 
 **Artist** Marco Nelor
+
+## Surge to Victory
+**Set** Commander 2021
+
+**Artist** Grzegorz Rutkowski

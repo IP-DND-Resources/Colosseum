@@ -1,7 +1,7 @@
 <!-- https://homebrewery.naturalcrit.com/share/WflK5ri_NdLH -->
 
 <div class='artist' style='top:30px;right:100px;'>
-[v0.2.0](https://github.com/IP-DND-Resources/Colosseum/tree/main)
+[v0.3.0](https://github.com/IP-DND-Resources/Colosseum/tree/main)
 </div>
 
 <div class='artist' style='top:40px;right:100px;'>
@@ -25,17 +25,17 @@ Activating a beacon with the appropriate amount of gold, teleports you to the Co
 The Challenge Level (hereafter refered to as CL) is used to determine entry cost, gold reward modifier, and Encounter Sizing Guidance. The CL is chosen by the entrants, and by default is equal to the party's average level. Some challenges have a "Party Sizing" reccomendation to ensure the challenge scales to the party size.
 
 ### Cost to Enter
-The cost to enter is equal to 25 GP * CL. This is a total cost paid by the group, not per individual cost. At CL 5, the entry fee is 100 GP. Your DM may choose to allow Gemstones as substitution for some or all of the gold cost. This value can be adjusted at DM discretion to balance the gold fountain provided by repeated runs.
+The cost to enter is equal to 25 GP * CL. This is a total cost paid by the group, not per individual cost. At CL 5, the entry fee is 125 GP. Your DM may choose to allow Gemstones as substitution for some or all of the gold cost. This value can be adjusted at DM discretion to balance the gold fountain provided by repeated runs.
 
 ### Challenge Points (CP)
 Unless otherwise specified in the Special Rules section of a Challenege; A number of Challenge Points is awarded for completing a Challenege, according to the following table. 
 
 ##### Challege Point table
-|Challenge Complete|Points Awarded|
+|Challenge is Completed...|Points Awarded|
 |:---|:---|
-|By end of Round 2|3|
-|By end of Round 6|2|
-|By end of Round 10|1|
+|by the end of Round 2|3|
+|by the end of Round 6|2|
+|by the end of Round 10|1|
 
 \column
 
@@ -71,7 +71,7 @@ Challengers do not earn Refreshments or Boons prior to an Elite Challenge.
 [This Homebrew is unofficial Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. ©Wizards of the Coast LLC.](https://company.wizards.com/en/legal/fancontentpolicy)
 </div>
 
-{{pageNumber 1}}
+{{pageNumber $[HB_pageNumber]}}
 
 \page
 
@@ -135,7 +135,7 @@ Boons are randomly selected boosts given to Challengers that they benefit from u
 [Aaron Miller](https://www.aaronbmiller.com/)
 }}
 
-{{pageNumber 2}}
+{{pageNumber $[HB_pageNumber]}}
 
 \page
 
@@ -154,13 +154,13 @@ Each completed challenge confers a number of "Gold Dice" that represent your pot
 
 **Result.** The total Gold Dice roll is multiplied by the CL, and that much gold is awarded to the party.
 
-**Example.** With a total roll of 4 at Challenge Level 5: 40 * 5 = 200 GP reward.
+**Example.** With a total roll of 40 at Challenge Level 5: 40 * 5 = 200 GP reward.
 :
-Unless otherwise specified in the Special Rules section of a Challenege; Each challenge begins with the potential of 5 Gold Dice, and at the end of each second round (2, 4, etc) the amount of Gold Dice awarded is reduced by 1. The size of Gold Die awarded is dependent on how many challenges have been completed so far in this Colosseum instance.
+Unless otherwise specified in the Special Rules section of a Challenege; Each challenge begins with the potential of 5 Gold Dice, and at the end of each second round (2, 4, etc) the amount of Gold Dice awarded is reduced by 1. The size of Gold Die awarded is based on which challenge was just completed. The maximum posible Gold Dice in the pool  is 5d6, 5d8, and 5d12.
 
 ##### Gold Dice reward table
 |Challenge Completed|Die Size Rewarded|
-|:---|:---|
+|:---:|:---:|
 |1|d6|
 |2|d8|
 |3|d12|
@@ -170,7 +170,7 @@ Each completed challenge offers one item as a reward in addition to Gold Dice ea
 
 ##### CL Item Rarity table
 |Challenge Level|Item Rarity|
-|:---|:---|
+|:---:|:---:|
 |1-2|Mundane|
 |3-4|Common|
 |5-8|Uncommon|
@@ -180,7 +180,7 @@ Each completed challenge offers one item as a reward in addition to Gold Dice ea
 
 ##### Challenge Item Pool
 |Challenge #|Item Types in Pool|
-|---|:---|
+|:---:|:---:|
 |1|Potion, Scroll, Ammunition, Consumable|
 |2|Rod, Staff, Wand, Wonderous Item, Equipment|
 |3|Ring, Armor, Weapon|
@@ -200,14 +200,71 @@ Completing an Elite Challenge rewards the party with 2x muliplier on their final
 [Anna Pavleeva](https://www.artstation.com/annapavleeva)
 }}
 
-{{pageNumber 3}}
+{{pageNumber $[HB_pageNumber]}}
 
 \page
 
 ## Challenges
-Each challenege is determined randomly by rolling 1d8 and selecting the corresponding challenge. The same challenge cannot be chosen during the same Colosseum instance if already completed, and should be rerolled.
-
+Each challenege is determined randomly by rolling on the Challenge Roll table and selecting the corresponding challenge. The same challenge should not be chosen during the same Colosseum instance if already completed, and should be rerolled.
+:
 **Map Selection.** The style or setting is at DM's discretion. This allows the use some otherwise underutilized maps. It is encouraged to mix in maps of varying gradients and environments (such as lava caves or urban areas). Perhaps adding some hazards or obstacles makes the encounter more dynamic!
+:
+**Combat.** Unless otherwise noted in *Features* or the *Special Rules* section of a challenge, all regular combat concepts still apply. This includes damage, healing, and any other effects. Challenges are designed to be ran in a combat environment with explicit changes.
+:
+#### Challenge Roll Table
+|Roll 1d8|Challenge|
+|:---:|:---|
+|1|Beelzeball|
+|2|Capture the Flag|
+|3|Infiltration|
+|4|King of the Hill|
+|5|Slaughter|
+|6|Smash it Up|
+|7|Tower Defense|
+|8|Tug of War|
+
+\column
+
+### Challenge Summaries
+#### Beelzeball 
+Compete in this head to head sporting matchup that will test your Dexterity and strategy to manuever the field and score a goal!
+
+#### Capture the Flag
+Two teams each control a flag separated by distance. Each team vies for control of both flags using any tool at their disposal to do so!
+
+#### Infilitration
+Avoid detection in this stealthy mission. Sentries and traps litter the way. Distract, detect, and determine your path through this gauntlet!
+
+#### King of the Hill
+Two teams battle to take control of the hill and protect their teammate who is occupying it, using any capabilities they have to establish dominance.
+
+#### Slaughter
+Classic gladiator Colosseum combat. <br> Be the last team standing!
+
+#### Smash it Up
+Deal as much damage as fast as you can in this simple timed damage test!
+
+#### Tower Defense
+Combatants spawn and follow the shortest path towards the Challengers base. Destroy the Combatants before they reach the base to gain rewards!
+
+#### Tug of War
+Use your willpower against the opposition to pull the rope to your team's side. Do you use your raw Strength, or your wit to distract and disable the oppostion?
+
+{{imageMaskEdge8,--offset:16%,--rotation:6
+  ![](https://raw.githubusercontent.com/IP-DND-Resources/Colosseum/refs/heads/main/img/Goblin-Boom-Keg-Fate-Reforged-MtG-Art.jpg){width:100%,bottom:-145px}
+}}
+<!-- Use --offset to shift the mask away from page center (can use cm instead of %)
+     Use --rotation to set rotation angle in degrees. -->
+
+{{artist,bottom:410px,left:30px
+##### Goblin Boom Keg
+[Viktor Titov](https://www.artstation.com/viktortitov)
+}}
+
+{{pageNumber $[HB_pageNumber]}}
+
+
+\page
 
 ### Beelzeball 
 Compete in this head to head sporting matchup that will test your Dexterity and strategy to manuever the field and score a goal!
@@ -228,20 +285,8 @@ Be the first team to score 3 goals, or have the highest number of goals at the e
 Creatures can't be reduced below 1 Hit Point. If damage would reduce a creature's Hit Points to 0 or less, they are instead knocked Prone, and they roll 1d20. On a roll of 1-9, they  also have the Unconscious condition until the beginning of their next turn.
 
 \column
+
 ::
-
-|Roll 1d8|Challenge|
-|:---|:---|
-|1|Beelzeball|
-|2|Capture the Flag|
-|3|Infiltration|
-|4|King of the Hill|
-|5|Slaughter|
-|6|Smash it Up|
-|7|Tower Defense|
-|8|Tug of War|
-
-:::
 
 #### Special Rules
 **Opportunity Attacks.** Opportunity Attacks are disabled during this Challenge. 
@@ -257,9 +302,20 @@ Creatures can't be reduced below 1 Hit Point. If damage would reduce a creature'
 :
 **Tackle.** You can attempt to forcefully take possesion of the ball from another creature that currently posses the ball. As an *<u>Action</u>*, make a contested Strength (Atheletics) or Dexterity (Acrobatics) check (each creature chooses independently). The winner of the contest gains or retains possession of the ball. The other creature is knocked Prone and moved 10 feet away from the winner.
 :
-**Steal.** You can attempt to steal possesion of the ball. As an *<u>Bonus Action</u>*, make a or Dexterity (Sleight of Hand) check. The creature currently in possession of the ball makes a contested Dexterity (Acrobatics or Sleight of Hand) or Wisdom (Insight) check (their choice). <br></brThe>The winner gains or retains possession of the ball.
+**Steal.** You can attempt to steal possesion of the ball. As an *<u>Bonus Action</u>*, make a or Dexterity (Sleight of Hand) check. The creature currently in possession of the ball makes a contested Dexterity (Acrobatics or Sleight of Hand) or Wisdom (Insight) check (their choice). The winner gains or retains possession of the ball.
 
-{{pageNumber 4}}
+{{imageMaskEdge8,--offset:25%,--rotation:6
+  ![](https://raw.githubusercontent.com/IP-DND-Resources/Colosseum/refs/heads/main/img/SurgetoVictory_5000x.jpg){width:100%,bottom:-230px}
+}}
+<!-- Use --offset to shift the mask away from page center (can use cm instead of %)
+     Use --rotation to set rotation angle in degrees. -->
+
+{{artist,bottom:250px,left:130px
+##### Surge to Victory
+[Grzegorz Rutkowski](https://www.artstation.com/rutkowski)
+}}
+
+{{pageNumber $[HB_pageNumber]}}
 
 \page
 
@@ -306,7 +362,7 @@ Creatures can't be reduced below 1 Hit Point. If damage would reduce a creature'
 :
 **Return the Flag.** A creature that is holding their team's flag, can take an *<u>Action</u>* to teleport their flag back to their base tile.
 
-{{pageNumber 5}}
+{{pageNumber $[HB_pageNumber]}}
 
 \page
 
@@ -347,7 +403,7 @@ A Challenger must carry the Medium Object from one end of the map to the other a
 [Svetlin Velinov](https://www.artstation.com/velinov)
 }}
 
-{{pageNumber 6}}
+{{pageNumber $[HB_pageNumber]}}
 
 \page
 
@@ -394,7 +450,7 @@ Reduce the opposing team to 0 Hit Points before they defeat you.
 [Steve Prescott](https://www.steveprescott.com/)
 }}
 
-{{pageNumber 7}}
+{{pageNumber $[HB_pageNumber]}}
 
 \page
 ### Smash it Up
@@ -455,7 +511,7 @@ Reduce all combatants to 0 hit points before they reach the base and despawn. If
 - (3-4) 2 Points
 - (1-2) 1 Point
 
-{{pageNumber 8}}
+{{pageNumber $[HB_pageNumber]}}
 
 \page
 
@@ -494,7 +550,7 @@ Win two match points before the end of round 10.
 <!-- Use --offset to shift the mask away from page center (can use cm instead of %)
      Use --rotation to set rotation angle in degrees. -->
 
-{{pageNumber 9}}
+{{pageNumber $[HB_pageNumber]}}
 
 \page
 
@@ -604,7 +660,7 @@ Win two match points before the end of round 10.
 ***Detect*** *Trigger:* A creature enters your Truesight range or makes an Attack roll against you. *Response* Teleport that creature back to the starting point.
 }}
 
-{{pageNumber 10}}
+{{pageNumber $[HB_pageNumber]}}
 
 \page
 
@@ -677,4 +733,4 @@ This is because there are 3 slots for 3 Challengers. A CR 1 takes 2 slots, a CR 
 </div>
 </div>
 
-{{pageNumber 11}}
+{{pageNumber $[HB_pageNumber]}}
