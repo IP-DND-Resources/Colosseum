@@ -1,7 +1,7 @@
 <!-- https://homebrewery.naturalcrit.com/share/WflK5ri_NdLH -->
 
 <div class='artist' style='top:30px;right:100px;'>
-[v0.3.0](https://github.com/IP-DND-Resources/Colosseum/tree/main)
+[v0.4.0](https://github.com/IP-DND-Resources/Colosseum/tree/main)
 </div>
 
 <div class='artist' style='top:40px;right:100px;'>
@@ -282,7 +282,7 @@ Be the first team to score 3 goals, or have the highest number of goals at the e
 **Shootout.** Each challenger and combatant rolls a DC 15 Strength (Atheletics) or Dexterity (Acrobatics) check. The team with the most successes wins. On a tie, repeat this process until there is a clear winner.
 
 #### Death Saving Throws
-Creatures can't be reduced below 1 Hit Point. If damage would reduce a creature's Hit Points to 0 or less, they are instead knocked Prone, and they roll 1d20. On a roll of 1-9, they  also have the Unconscious condition until the beginning of their next turn.
+Creatures can't be reduced below 1 Hit Point. If damage would reduce a creature's Hit Points to 0 or less, they are instead knocked Prone with 1 Hit Point.
 
 \column
 
@@ -291,20 +291,20 @@ Creatures can't be reduced below 1 Hit Point. If damage would reduce a creature'
 #### Special Rules
 **Opportunity Attacks.** Opportunity Attacks are disabled during this Challenge. 
 :
-**Challenge Points** Points awarded for completing this challenge with specific goal thresholds: <br>(3 Goals) 3 Points; (2 Goals) 2 Points; (1 Goal) 1 Point.
+**Challenge Points.** Points awarded for completing this challenge with specific goal thresholds: <br>(3 Goals) 3 Points; (2 Goals) 2 Points; (1 Goal) 1 Point.
 
 #### Special Abilitites
-**Possess.** As a *<u>Bonus Action</u>* while you are not Prone, you can take control of a ball that is not being controled by another creature that is in a space you occupy or are adjacent to. While you possess the ball, you must maintain Concetration or you lose possession of the ball, which drops into your space.
+**Possess.** As a *Bonus Action* while you are not Prone, you can take control of a ball that is not being controled by another creature that is in a space you occupy or are adjacent to. While you possess the ball, you must maintain *<u>Concetration</u>* or you lose possession of the ball, which drops into your space.
 :
-**Pass/Shoot.** You can pass the ball to a teammate or take a shot on a goal if you have possesion of it. As an *<u>Action</u>*, make a Strength (Atheletics) check with a DC of 10 + 1 for each 5 ft of distance for the attempted pass or shot. On a failure, the ball moves half way between you and the intended destination and comes to a rest. On a success, the ball moves towards the intended location.
+**Pass/Shoot.** As an *Action*, you can pass the ball to a teammate or take a shot on a goal if you have possesion of it. Make a Strength (Atheletics) check with a DC of 10 + 1 for each 5 ft of distance for the attempted pass or shot. On a failure, the ball moves half way between you and the intended destination and comes to a rest. On a success, the ball moves towards the intended location.
 :
-**Intercept.** You can intercept a ball in motion and attempt to take control of it. As a <u>*Reaction*</u>, when the ball is in motion and moves within 5 feet of you, you can make a DC 13 Dexterity (Acrobatics) check to try and take possesion of the ball. On a failure, the ball continues on its intended path.
+**Intercept.**  As a *Reaction*, you can intercept a ball in motion and attempt to take control of it. When the ball is in motion and moves within 5 feet of you, you can make a *DC 13* Dexterity (Acrobatics) check to try and take possesion of the ball. On a failure, the ball continues on its intended path.
 :
-**Tackle.** You can attempt to forcefully take possesion of the ball from another creature that currently posses the ball. As an *<u>Action</u>*, make a contested Strength (Atheletics) or Dexterity (Acrobatics) check (each creature chooses independently). The winner of the contest gains or retains possession of the ball. The other creature is knocked Prone and moved 10 feet away from the winner.
+**Tackle.** As an *Action*, you can attempt to forcefully take possesion of the ball from another creature within 5 feet of you that currently posses the ball. Make a contested Strength (Atheletics) or Dexterity (Acrobatics) check (each creature chooses independently). <br> The winner of the contest gains or retains possession of the ball. The other creature is knocked Prone and moved 10 feet away from the winner.
 :
-**Steal.** You can attempt to steal possesion of the ball. As an *<u>Bonus Action</u>*, make a or Dexterity (Sleight of Hand) check. The creature currently in possession of the ball makes a contested Dexterity (Acrobatics or Sleight of Hand) or Wisdom (Insight) check (their choice). The winner gains or retains possession of the ball.
+**Steal.** As a *Reaction*, you can attempt to steal possesion of the ball from another creature within 10 feet of you. Make a or Dexterity (Sleight of Hand) check. The creature currently in possession of the ball makes a contested Dexterity (Acrobatics or Sleight of Hand) or Wisdom (Insight) check (their choice). The winner moves 5 feet and gains or retains possession of the ball.
 
-{{imageMaskEdge8,--offset:25%,--rotation:6
+{{imageMaskEdge8,--offset:27%,--rotation:13
   ![](https://raw.githubusercontent.com/IP-DND-Resources/Colosseum/refs/heads/main/img/SurgetoVictory_5000x.jpg){width:100%,bottom:-230px}
 }}
 <!-- Use --offset to shift the mask away from page center (can use cm instead of %)
@@ -344,23 +344,23 @@ On a map that is 150 feet by 50 feet, 2 flags are placed 100 feet apart (centere
 Retreive and return the other team's flag to your base tile. You must place both flags at your base tile to win.
 
 #### Death Saving Throws
-Creatures can't be reduced below 1 Hit Point. If damage would reduce a creature's Hit Points to 0 or less, they are instead teleported to a pocket dimension. At the end of their next turn, they return from this pocket dimension in an unoccupied space of their choice adjacent to their base tile at half of their Maximum Hit Points (rounded up).
+Creatures can't be reduced below 1 Hit Point. If damage would reduce a creature's Hit Points to 0 or less, they are instead teleported to a pocket dimension. At the beginning of their next turn, they return from this pocket dimension in an unoccupied space of their choice adjacent to their base tile at half of their Maximum Hit Points (rounded up).
 
 #### Special Rules
 **Moving the Flag.** The flag cannot be teleported, relocated, or moved by any spell or effect. A flag cannot be held or moved except by Challengers and Combatants themselves (not by pets or familiars). If a creature  teleports while holding the flag, it drops in their space prior to teleporting.
 :
 **Opportunity Attacks.** Opportunity Attacks are disabled during this Challenge.
 :
-**Challenge Points** Points awarded for completing this challenge by the end of the specified round: (Round 3) 3 Points; (Round 6) 2 Points; (Round 10) 1 Point. 
+**Challenge Points.** Points awarded for completing this challenge by the end of the specified round: (Round 3) 3 Points; (Round 6) 2 Points; (Round 10) 1 Point. 
 
 #### Special Abilitites
 **Quick Start.** Moving on to your base tile teleports you to an unoccupied space of your choice within 10 feet of the center point between the two base tiles.
 :
-**Grab the Flag.** A creature can take a *<u>Bonus Action</u>* to grab a flag not being held by a creature or on a base tile.
+**Grab the Flag.** As a *<u>Bonus Action</u>*, grab a flag on a base tile or not being held by a creature.
 :
-**Take the Flag.** If a creature is currently holding the flag, another creature can attempt to take it by making a contested Strength (Atheletics) or Dexterity (Sleight of Hand) check. Alternatively, a flag can be given willingly.
+**Take the Flag.** As an *<u>Action</u>*, if a creature is currently holding the flag, another creature within 5 feet can attempt to take it by making a contested Strength (Atheletics) or Dexterity (Sleight of Hand) check. Alternatively, a flag can be given willingly.
 :
-**Return the Flag.** A creature that is holding their team's flag, can take an *<u>Action</u>* to teleport their flag back to their base tile.
+**Return the Flag.** As an *<u>Action</u>*, a creature that is holding their team's flag teleports their flag back to their base.
 
 {{pageNumber $[HB_pageNumber]}}
 
@@ -469,7 +469,7 @@ Reduce the object to 0 hit points before the end of round 10.
 #### Special Rules
 **Immovable.** The object can't be relocated, pushed, lifted, toppled, or moved in any way.
 :
-**Spellcasting** *Trigger:* The object drops below 75%, 50%, and 25% Hit Points. *Response:* The object casts a randomly chosen spell from the Object Spell table, once on (or centered on) each creature. 
+**Spellcasting.** *Trigger:* The object drops below 75%, 50%, and 25% Hit Points. *Response:* The object casts a randomly chosen spell from the Object Spell table, once on (or centered on) each creature. 
 :
 **Object's Spells.** Each spell cast by the object is considered as being from a different source for the purposes of spells and abilities like Counterspell, Dispel Magic, or similar. These spells are cast without any component requirements or and do not require Concentration. The object also inherits the Immovable trait and Spellcasting Reaction.
 :
@@ -734,3 +734,148 @@ This is because there are 3 slots for 3 Challengers. A CR 1 takes 2 slots, a CR 
 </div>
 
 {{pageNumber $[HB_pageNumber]}}
+
+\page
+
+## Player Handout
+Enter the Colosseum and compete for glory and riches. Complete a series of three challenges and gain rewards based on your performance. Featuring 8 different challenges, each requires teamwork or raw battle prowess to succeed. Challengers (PCs) compete against Combatants (NPCs or Opposing PC teams) for victory. These challenges are intended to be an augment to regular combat rules and mechanics.
+
+### Entering the Colosseum
+As a party, choose the Challenge Level (CL) for this Colosseum instance. The CL determines the cost to enter, difficult scaling of challenges, and potential rewards. The reccomended CL is your avg party level
+
+#### Cost to Enter
+The cost to enter for your party is **25 GP * CL**. <br> This is paid as a group.
+
+### Key Information
+#### Death
+True death is disabled in the Colosseum. Depending on the challenge you may be restored on the next round or at the end of the challenge.
+
+#### Timed Challenges
+Challenge rewards peak when completed before the end of round 2.
+
+#### Completing a Challenge
+Based on how well your party does when completing a challenge, you may be awarded additional support (See Below). If you complete a challenge prior to the end of round 4, you benefit from both. Otherwise, each party member picks which they wish to receive.
+
+**Refreshments.** You may benefit from a Short Rest and can use any resources at your disposal.
+
+**Boons.** Each Challenger that receives a Boon, will be presented with 3 options to select which Boon to receive. These are randomly determined from 3 tables. Some Boons are persistent for the remainder of the Colosseum instance, some are available until used once.
+
+
+### Rewards
+Based on how many challenges have been completed in the current Colosseum instance; Gold Dice and an Item reward will be placed into your reward pool. For each challenge completed, the size of Gold Dice increases, as well as which items may be available as a reward. Completing challenges in less rounds increase the number of Gold Dice your party earns. If you fail to complete a challenge, you forfeit all potential Item rewards, but you still earn your Gold Dice.
+
+\column
+{{challengetitle
+### Beelzeball 
+}}
+Compete in this head to head sporting matchup that will test your Dexterity and strategy to manuever the field and score a goal!
+
+#### Objective
+Be the first team to score 3 goals, or have the highest number of goals at the end of 10 rounds. If the challenge ends in a tie at the end of round 10, a Shootout occurs.
+
+#### Death Saving Throws
+Creatures can't be reduced below 1 Hit Point. Instead they are knocked Prone with 1 Hit Point.
+
+#### Special Rules & Abilities
+**Opportunity Attacks.** Opportunity Attacks are disabled during this Challenge.
+:
+**Possess.** As a *<u>Bonus Action</u>* while you are not Prone, you can take control of a ball that is not being controled by another creature that is in a space you occupy or are adjacent to. While you possess the ball, you must maintain *<u>Concetration</u>* or you lose possession of the ball, which drops into your space.
+:
+**Pass/Shoot.** As an *<u>Action</u>*, you can pass the ball to a teammate or take a shot on a goal if you have possesion of it. Make a Strength (Atheletics) check with a DC of 10 + 1 for each 5 ft of distance for the attempted pass or shot. On a failure, the ball moves half way between you and the intended destination and comes to a rest. On a success, the ball moves towards the intended location.
+:
+**Intercept.**  As a *<u>Reaction</u>*, you can intercept a ball in motion and attempt to take control of it. When the ball is in motion and moves within 5 feet of you, you can make a *DC 13* Dexterity (Acrobatics) check to try and take possesion of the ball. On a failure, the ball continues on its intended path.
+:
+**Tackle.** As an *<u>Action</u>*, you can attempt to forcefully take possesion of the ball from another creature within 5 feet of you that currently posses the ball. Make a contested Strength (Atheletics) or Dexterity (Acrobatics) check (each creature chooses independently). <br> The winner of the contest gains or retains possession of the ball. The other creature is knocked Prone and moved 10 feet away from the winner.
+:
+**Steal.** As a *<u>Reaction</u>*, you can attempt to steal possesion of the ball from another creature within 10 feet of you. Make a or Dexterity (Sleight of Hand) check. The creature currently in possession of the ball makes a contested Dexterity (Acrobatics or Sleight of Hand) or Wisdom (Insight) check (their choice). The winner moves 5 feet and gains or retains possession of the ball.
+
+{{pageNumber 1}}
+
+\page
+{{challengetitle
+### Capture the Flag
+}}
+Two teams each control a flag separated by distance. Each team vies for control of both flags using any tool at their disposal to do so!
+
+#### Objective
+Retreive and return the other team's flag to your base tile. You must place both flags at your base tile to win.
+
+#### Death Saving Throws
+Creatures can't be reduced below 1 Hit Point. Instead at the end of their next turn, they return to their base tile at half of their Maximum Hit Points at the beginning of their next turn.
+
+#### Special Rules & Abilitites
+&emsp;**Opportunity Attacks.** Opportunity Attacks are disabled during this Challenge.
+
+**Moving the Flag.** The flag cannot be teleported, relocated, or moved by any spell or effect. A flag cannot be held or moved except by Challengers and Combatants themselves (not by pets or familiars). If a creature teleports while holding the flag, it drops in their space prior to teleporting.
+
+**Quick Start.** Moving on to your base tile teleports you to an unoccupied space of your choice within 10 feet of the center point between the two base tiles.
+
+**Grab the Flag.** As a *<u>Bonus Action</u>*, grab a flag on a base tile or not being held by a creature.
+
+**Take the Flag.** As an *<u>Action</u>*, if a creature is currently holding the flag, another creature within 5 feet can attempt to take it by making a contested Strength (Atheletics) or Dexterity (Sleight of Hand) check. Alternatively, a flag can be given willingly.
+
+**Return the Flag.** As an *<u>Action</u>*, a creature that is holding their team's flag teleports their flag back to their base.
+
+{{challengetitle
+### Infilitration
+}}
+Avoid detection in this stealthy mission. Sentries and traps litter the way. Distract, detect, and determine your path through this gauntlet!
+
+#### Objective
+A Challenger must carry the Medium Object (150 lbs.) from one end of the map to the other and place it on the pedestal without being detected or triggering a trap. If the Object is destroyed, the challenge is a failure.
+
+#### Special Rules & Abilitites
+&emsp;**Sentry Detection.** A player that is detected by a Sentry or triggers a trap, drops the object in their space (if they are holding it) and is teleported back to the starting point. They can take no action until the start of their next turn.
+
+\column
+
+{{challengetitle
+### King of the Hill
+}}
+Two teams battle to take control of the hill and protect their teammate who is occupying it, using any capabilities they have to establish dominance.
+
+#### Objective
+End two consecutive turns as king of the hill or reduce the opposing team to 0 Hit Points.
+
+#### Special Rules & Abilitites
+&emsp;**Unconscious.** A creature that is Unconscious while on the hill, falls off of the hill into an unoccupied space of their choice that is at least 10 feet away the hill.
+
+{{challengetitle
+### Slaughter
+}}
+Classic gladiator combat. Be the last team standing!
+
+#### Objective
+Defeat the opposing team before they defeat you.
+
+{{challengetitle
+### Smash it Up
+}}
+Deal as much damage as fast as you can in this simple timed damage test! The Object will try to defend itself.
+
+#### Objective
+Destroy the Object before the end of round 10.
+
+{{challengetitle
+### Tower Defense
+Combatants spawn and follow the shortest path towards the Challengers base. Destroy the Combatants before they reach the base to gain rewards!
+}}
+
+#### Objective
+Reduce all combatants to 0 hit points before they reach the base and despawn. If all 5 combatants reach the base and despawn, the challenge is considered a failure.
+
+{{challengetitle
+### Tug of War
+}}
+Use your willpower against the opposition to pull the rope to your team's side. Do you use your raw Strength, or your wit to distract and disable the oppostion?
+#### Objective
+Win two match points before the end of round 10.
+
+#### Special Rules & Abilitites
+&emsp;**Damage Immunity.** On their turn, a creature can use their Actions, Bonus Actions, and Reactions normally, but all creatures are Immune to all damage.
+
+**Pull.** At the end of the round, a creature that is not Concentrating and did not use their *<u>Action</u>* on their turn (or chose to use their Action to Pull), makes a makes a Strength (Atheletics) check.
+
+**Action Surge.** If a creature can use an effect to "take an additional Action on their turn", this can be used to Pull even if they already used their regular Action on their turn.
+
+{{pageNumber 2}}
