@@ -789,6 +789,7 @@ Creatures can't be reduced below 1 Hit Point. Instead they are knocked Prone wit
 :
 **Steal.** As a *<u>Reaction</u>*, you can attempt to steal possesion of the ball from another creature within 10 feet of you. Make a or Dexterity (Sleight of Hand) check. The creature currently in possession of the ball makes a contested Dexterity (Acrobatics or Sleight of Hand) or Wisdom (Insight) check (their choice). The winner moves 5 feet and gains or retains possession of the ball.
 
+{{pageNumber 1}}
 
 \page
 {{challengetitle
@@ -877,4 +878,4 @@ Win two match points before the end of round 10.
 
 **Action Surge.** If a creature can use an effect to "take an additional Action on their turn", this can be used to Pull even if they already used their regular Action on their turn.
 
-{{pageNumber $[HB_pageNumber]}}
+{{pageNumber 2}}
